@@ -5,7 +5,7 @@ Summary:	library to edit audio properties and tags on MPEG and OGG files
 Summary(pl.UTF-8):	biblioteka do edycji informacji w plikach MPEG i OGG
 Name:		php-pecl-%{_modname2}
 Version:	0.2.0
-Release:	3
+Release:	4
 License:	Modified BSD
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
