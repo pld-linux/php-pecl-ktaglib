@@ -12,6 +12,7 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	8c363e8c96eedd21ea652b280369d59b
 URL:		http://pecl.php.net/package/KTaglib/
 BuildRequires:	php-devel >= 3:5.0.0
+BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.344
 BuildRequires:	taglib-devel >= 1.5
 %{?requires_php_extension}
