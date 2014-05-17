@@ -1,0 +1,12 @@
+patch to make svn diffs to apply
+--- php53-pecl-ktaglib-0.2.0/php_ktaglib.h~	2014-05-17 14:17:41.000000000 +0300
++++ php53-pecl-ktaglib-0.2.0/php_ktaglib.h	2014-05-17 14:18:32.886724388 +0300
+@@ -35,7 +35,7 @@
+ #ifndef PHP_KTAGLIB_H
+ #define PHP_KTAGLIB_H
+ 
+-#define PHP_KTAGLIB_VERSION "0.2.0"
++#define PHP_KTAGLIB_VERSION "0.0.1-dev"
+ 
+ #ifdef  __cplusplus
+ extern "C" {
